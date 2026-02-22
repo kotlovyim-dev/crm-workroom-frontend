@@ -1,3 +1,4 @@
+import { NearestEvents } from "../ui/nearest-events";
 import { Workload } from "../ui/workload";
 
 export function DashboardView() {
@@ -13,6 +14,7 @@ export function DashboardView() {
             </div>
             <div className="flex flex-row gap-6">
                 <Workload />
+                <NearestEvents />
             </div>
         </div>
     );
