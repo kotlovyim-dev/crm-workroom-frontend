@@ -33,7 +33,7 @@ export function NearEventCard({
     return (
         <div
             className={cn(
-                "border-l-4 px-4 w-full flex flex-col justify-between gap-12 py-3",
+                "border-l-4 px-4 w-full flex flex-col justify-between gap-10 py-3",
                 colorMap[type],
             )}
         >
