@@ -48,7 +48,7 @@ const workloadData = [
 
 export function Workload() {
     return (
-        <Card className="w-full">
+        <Card className="w-full pt-6 gap-4">
             <CardHeader className="flex items-center justify-between">
                 <h2 className="text-2xl font-bold">Workload</h2>
                 <Button variant="link" size="sm">
